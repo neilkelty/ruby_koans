@@ -29,6 +29,8 @@ require File.expand_path(File.dirname(__FILE__) + '/edgecase')
 #
 # Your goal is to write the score method.
 
+# Example of what might be a better method: http://whoneedsactions.com/blog/2012/05/01/ruby-koans-scoring-project/
+
 def score(dice)
   dice.sort
   @score = 0
